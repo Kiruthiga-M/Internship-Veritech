@@ -1,0 +1,313 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color:  #e1f5f2;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  padding: 30px 0;
+  top: 0;
+  z-index: 100;
+  line-height: 20px;
+  
+}
+.inner-width{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Great Vibes',sans-serif;
+  color: black;
+  cursor: pointer;
+}
+.navbar-menu a{
+  font-size: 13px;
+  font-weight: 800;
+  font-family: 'Raleway',sans-serif;
+  color:black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left: 35px;
+  display: inline-block;
+
+}
+.navbar-menu a::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 1.8px;
+  background-color:#6bc5d2;
+  transition: width .3s;
+}
+.navbar-menu a:hover::after{
+  width: 100%;
+}
+#home{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: black;
+ 
+  padding: 0 100px;
+}
+.content1{
+  display: flex;
+  flex-direction: column;
+  padding-top: 170px;
+}
+.title h1{
+  font-size: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+.image{
+  background-image: url(img1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 450px;
+  height: 350px;
+}
+.content2{
+  display: flex;
+  flex-direction: column;
+  padding-top: 170px;
+  padding-left: 20px;
+  
+  
+}
+.content2 .image{
+  background-image: url(img2.jpg);
+ 
+}
+.title p{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Lemon', serif;
+  font-family: 'Satisfy', cursive;
+  margin-bottom: 0;
+  margin-top: 33px;
+  font-size: 34px;
+  
+}
+.content{
+  
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding: 0 100px;
+  margin-top: 30px;
+}
+#about-page img{
+  height:500px;
+  width:600px;
+}
+
+#menu h1,#about-page h1,#contact h2{
+  
+  font-size: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+.about{
+   margin-left:40px;
+   margin-top: 100px;
+   font-size: 30px; 
+   font-family: 'Dancing Script', cursive;
+   font-family: 'Lemon', serif;
+   font-family: 'Satisfy', cursive;
+   font-weight: 500;
+   line-height: 1.8;
+   
+}
+.about p{
+  border-bottom: 2px solid black;
+  
+}
+
+.display1{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cake,.cup-cake{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.cake p,.cup-cake p{
+  font-family: 'Lemon', serif;
+  font-size: 30px;
+  font-weight: 200;
+  margin-left: 50px;
+}
+.cake img,.cup-cake img{
+  padding:10px;
+  width:320px;
+}
+
+#about-page{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.menu1 {
+  position: relative;
+  width: 100%;
+}
+
+#image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cakename {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  
+}
+
+.menu1:hover .cakename {
+  opacity: .6;
+
+}
+
+.text1{
+  color: black;
+  font-family: 'Lemon', serif;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+
+#contact{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  font-size: 30px;
+  
+}
+
+.contact1{
+  display: grid;
+  grid-template-rows: 2fr 2fr;
+  margin-left:30px;
+ 
+}
+.reach{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin:30px 0 30px 50px;
+
+}
+.address{
+  margin-left: 50px;
+}
+.address h4{
+  margin-top:30px ;
+  margin-bottom: 10px;
+}
+
+.contact2 input,button{
+  width:80%;
+  height:40px;
+  margin-top: 20px;
+  border:1px solid black;
+  padding:10px;
+  margin-left: 60px;
+  
+}
+.contact2 textarea{
+  width:80%;
+  height:70px;
+  margin-top: 20px;
+  border:1px solid black;
+  padding: 10px;
+  margin-left: 60px;
+}
+.contact2 button{
+  background-color:rgb(0, 183, 255);
+  color: black;
+  font-size: 24px;
+  border: none;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.footer p{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Lemon', serif;
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  font-size: 30px;
+  margin-top:80px;
+  letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 331px) {
+  #home{
+     margin-bottom: 150px;
+  }
+  #about-page{
+    margin-top: 100px;
+  } 
+
+}
+@media only screen and (max-width: 321px){
+  #home{
+    margin-bottom: 250px;
+    border-bottom: 2px solid black;
+ }
+ #about-page{
+  margin-top: 100px;
+ } 
+  .cake .display1,.cup-cake .display1{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(470px, 4fr));
+    grid-template-rows: repeat(2, minmax(200px, 4fr));
+    
+  }
+  .footer p{
+     font-size: 20px;
+     
+  }
+
+}
+@media only screen and (max-width: 412px){
+  #home .content2{
+    padding-right: 130px;
+  }
+  #about-page h1{
+    padding-top: 0;
+  }
+}
