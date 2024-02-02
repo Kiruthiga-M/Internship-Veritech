@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+Hotstar clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="images/logo.PNG" alt="Disney+Hotstar" class="logo">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#carousel-container">Home</a></li>
+            <li class="nav-items"><a href="#tv">TV</a></li>
+            <li class="nav-items"><a href="#movie">Movies</a></li>
+            <li class="nav-items"><a href="#">Sports</a></li>
+            <li class="nav-items"><a href="#">Premium</a></li>
+        </ul>
+        <div class="right-container">
+            <input type="text" class="search-bar" placeholder="Movies,shows and more">
+            <button class="subscribe-btn">SUBSCRIBE</button>
+            <a href="#" class="login-link">Login</a>
+        </div>
+    </nav>
+    <div id="carousel-container">
+        <div class="carousel">
+
+        </div>
+    </div>
+    <div class="video-card-container">
+        <div class="video-card">
+            <img src="images/disney.PNG" class="video-card-image" alt="">
+            <video src="videos/disney.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/pixar.PNG" class="video-card-image" alt="">
+            <video src="videos/pixar.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/marvel.PNG" class="video-card-image" alt="">
+            <video src="videos/marvel.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/star-wars.PNG" class="video-card-image" alt="">
+            <video src="videos/star-war.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/geographic.PNG" class="video-card-image" alt="">
+            <video src="videos/geographic.mp4" mute loop class="card-video"></video>
+        </div>
+    </div>
+
+    <h1 class="title" id="movie">recommended for you</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/R1.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Fight Club</h2>
+                    <h6 class="des"> An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R2.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Parking</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R3.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Taaza khabar</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R4.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Neru</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R5.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Sadak2</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R6.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Extra</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/R7.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Good Night</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R3.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Taza khabar</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+   
+    <!-- New Releases -->
+    <h1 class="title">New Releases</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/R7.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Good Night</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R6.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Extra</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R5.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Sadak2</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R4.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Neru</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R3.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Taza khabar</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R2.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Parking</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/R1.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Fight Club</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/R7.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Good Night</h2>
+                    <h6 class="des">An aspiring footballer's life is upended when his mentor is murdered.</h6>
+                    <button class="watchlist-btn">Watch Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+ <!-- Popular Shows -->
+
+ <h1 class="title" id="tv">Popular Shows</h1>
+ <div class="movies-list">
+     <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+     <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+     <div class="card-container">
+
+         <div class="card">
+             <img src="images/S1.jpg" alt="" class="card-img">
+             <div class="card-body">
+                 <h2 class="name">Cook with comali</h2>
+                 <button class="watchlist-btn">Watch Now</button>
+             </div>
+         </div>
+
+         <div class="card">
+             <img src="images/S2.jpeg" alt="" class="card-img">
+             <div class="card-body">
+                 <h2 class="name">Super singer</h2>
+                 
+                 <button class="watchlist-btn">Watch Now</button>
+             </div>
+         </div>
+
+         <div class="card">
+             <img src="images/S3.jpeg" alt="" class="card-img">
+             <div class="card-body">
+                 <h2 class="name">Thala Thalapathi</h2>
+                 
+                 <button class="watchlist-btn">Watch Now</button>
+             </div>
+         </div>
+
+         <div class="card">
+             <img src="images/S4.webp" alt="" class="card-img">
+             <div class="card-body">
+                 <h2 class="name">Enkita Modhadhe</h2>
+                
+                 <button class="watchlist-btn">Watch Now</button>
+             </div>
+         </div>
+
+         <div class="card">
+             <img src="images/S1.jpg" alt="" class="card-img">
+             <div class="card-body">
+                 <h2 class="name">Cook with comali</h2>
+                 
+                 <button class="watchlist-btn">Watch Now</button>
+             </div>
+         </div>
+
+         <div class="card">
+             <img src="images/S4.webp" alt="" class="card-img">
+             <div class="card-body">
+                 <h2 class="name">Enkita Modhadhe</h2>
+                 
+                 <button class="watchlist-btn">Watch Now</button>
+             </div>
+         </div>
+
+         <div class="card">
+             <img src="images/S2.jpeg" alt="" class="card-img">
+             <div class="card-body">
+                 <h2 class="name">Super Singer</h2>
+                 
+                 <button class="watchlist-btn">Watch Now</button>
+             </div>
+         </div>
+         <div class="card">
+             <img src="images/S4.webp" alt="" class="card-img">
+             <div class="card-body">
+                 <h2 class="name">Enkita Modhadhe</h2>
+                 
+                 <button class="watchlist-btn">Watch Now</button>
+             </div>
+         </div>
+
+     </div>
+ </div>
+ 
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
